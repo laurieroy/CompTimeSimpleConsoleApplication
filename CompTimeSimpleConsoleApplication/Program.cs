@@ -34,7 +34,7 @@ namespace CompTimeSimpleConsoleApplication
                 var query = (from e in ctx.Entries
                                orderby e.PayPeriod
                                select e).ToList<Entry>();
-                Console.WriteLine("Covnerted Comp Time Entries:");
+                Console.WriteLine("Converted Comp Time Entries:");
 
                 foreach (var item in query)
                 {
